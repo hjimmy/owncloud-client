@@ -1,0 +1,12 @@
+set( APPLICATION_NAME       "BJKW-CloudDisk" )
+#set( APPLICATION_SHORTNAME  ${APPLICATION_NAME} )
+set( APPLICATION_EXECUTABLE "zcloud" )
+set( APPLICATION_DOMAIN     "http://www.bjkw.gov.cn/n8785584/index.html" )
+set( APPLICATION_VENDOR     "BJKW-CloudDisk" )
+set( APPLICATION_UPDATE_URL "http://www.bjkw.gov.cn/n8785584/index.html" CACHE string "URL for updater" )
+
+set( THEME_CLASS            "ownCloudTheme" )
+set( APPLICATION_REV_DOMAIN "com.owncloud.desktopclient" )
+set( WIN_SETUP_BITMAP_PATH  "${CMAKE_SOURCE_DIR}/admin/win/nsi" )
+# set( THEME_INCLUDE          "${OEM_THEME_DIR}/mytheme.h" )
+# set( APPLICATION_LICENSE    "${OEM_THEME_DIR}/license.txt )
