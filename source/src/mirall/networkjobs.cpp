@@ -333,7 +333,7 @@ bool LsColJob::finished()
 
 namespace {
 const char statusphpC[] = "status.php";
-const char owncloudDirC[] = "owncloud/";
+const char owncloudDirC[] = "bjkw/";
 }
 
 CheckServerJob::CheckServerJob(Account *account, bool followRedirect, QObject *parent)

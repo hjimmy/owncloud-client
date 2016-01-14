@@ -164,12 +164,12 @@
     <message>
         <location filename="../src/mirall/accountsettings.cpp" line="760"/>
         <source>No connection to %1 at &lt;a href=&quot;%2&quot;&gt;%3&lt;/a&gt;.</source>
-        <translation>无法连接到 %1 服务器</translation>
+        <translation>无法连接到科委云盘服务器</translation>
     </message>
     <message>
         <location filename="../src/mirall/accountsettings.cpp" line="767"/>
         <source>No %1 connection configured.</source>
-        <translation>没有 %1 连接配置。</translation>
+        <translation>没有科委云盘连接配置。</translation>
     </message>
     <message>
         <location filename="../src/mirall/accountsettings.cpp" line="469"/>
@@ -198,10 +198,10 @@
     </message>
     <message>
         <location filename="../src/mirall/accountsettings.cpp" line="756"/>
-        <!--source>Connected to &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt; as &lt;i&gt;%3&lt;/i&gt;.</source-->
-        <source>Connected to as &lt;i&gt;%1&lt;/i&gt;.</source>
-	<!--translation>用户 &lt;i&gt;%3&lt;/i&gt; 连接到 &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt;.</translation-->
-        <translation>用户 %4</translation>
+        <source>Connected to &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt; as &lt;i&gt;%3&lt;/i&gt;.</source>
+        <!--source>Connected to as &lt;i&gt;%1&lt;/i&gt;.</source-->
+	<translation>用户 &lt;i&gt;%3&lt;/i&gt; 连接到 &lt;a href=&quot;%1&quot;&gt;%2&lt;/a&gt;.</translation>
+        <!--translation>用户 %4</translation-->
     </message>
     <message>
         <location filename="../src/mirall/accountsettings.cpp" line="725"/>
@@ -252,7 +252,7 @@
     <message>
         <location filename="../src/mirall/connectionvalidator.cpp" line="127"/>
         <source>Unable to connect to %1</source>
-        <translation>无法连接到 %1</translation>
+        <translation>无法连接到科委云盘</translation>
     </message>
     <message>
         <location filename="../src/mirall/connectionvalidator.cpp" line="157"/>
@@ -981,7 +981,7 @@ for additional privileges during the process.</source>
     <message>
         <location filename="../src/wizard/owncloudadvancedsetuppage.cpp" line="48"/>
         <source>Connect to %1</source>
-        <translation>%1 连接配置</translation>
+        <translation>科委云盘连接配置</translation>
     </message>
     <message>
         <location filename="../src/wizard/owncloudadvancedsetuppage.cpp" line="49"/>
@@ -1029,7 +1029,7 @@ for additional privileges during the process.</source>
     <message>
         <location filename="../src/wizard/owncloudhttpcredspage.cpp" line="42"/>
         <source>Connect to %1</source>
-        <translation>%1 连接配置</translation>
+        <translation>科委云盘连接配置</translation>
     </message>
     <message>
         <location filename="../src/wizard/owncloudhttpcredspage.cpp" line="43"/>
@@ -1047,12 +1047,12 @@ for additional privileges during the process.</source>
     <message>
         <location filename="../src/wizard/owncloudsetuppage.cpp" line="44"/>
         <source>Connect to %1</source>
-        <translation>%1 连接配置</translation>
+        <translation>科委云盘连接配置</translation>
     </message>
     <message>
         <location filename="../src/wizard/owncloudsetuppage.cpp" line="45"/>
         <source>Setup %1 server</source>
-        <translation>配置 %1 服务器地址</translation>
+        <translation>配置服务器地址</translation>
     </message>
     <message>
         <location filename="../src/wizard/owncloudsetuppage.cpp" line="105"/>
@@ -1195,12 +1195,12 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="340"/>
         <source>Successfully connected to %1!</source>
-        <translation>成功连接到了 %1！</translation>
+        <translation>成功连接到了科委云盘！</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="347"/>
         <source>Connection to %1 could not be established. Please check again.</source>
-        <translation>无法建立到 %1的链接，请稍后重试</translation>
+        <translation>无法建立到科委云盘的链接，请稍后重试</translation>
     </message>
     <message>
         <location filename="../src/mirall/owncloudsetupwizard.cpp" line="361"/>
@@ -1213,7 +1213,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/wizard/owncloudwizard.cpp" line="71"/>
         <source>%1 Connection Wizard</source>
-        <translation>%1 链接向导</translation>
+        <translation>科委云盘链接向导</translation>
     </message>
 </context>
 <context>

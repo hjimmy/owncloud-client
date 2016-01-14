@@ -1,6 +1,6 @@
 set( APPLICATION_NAME       "BJKW-CloudDisk" )
 #set( APPLICATION_SHORTNAME  ${APPLICATION_NAME} )
-set( APPLICATION_EXECUTABLE "zcloud" )
+set( APPLICATION_EXECUTABLE "bjkw-clouddisk" )
 set( APPLICATION_DOMAIN     "http://www.bjkw.gov.cn/n8785584/index.html" )
 set( APPLICATION_VENDOR     "BJKW-CloudDisk" )
 set( APPLICATION_UPDATE_URL "http://www.bjkw.gov.cn/n8785584/index.html" CACHE string "URL for updater" )

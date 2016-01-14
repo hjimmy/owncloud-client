@@ -734,9 +734,9 @@ void AccountSettings::slotAccountStateChanged(int state)
                                 /*, tr("Version: %1 (%2)").arg(versionStr).arg(version) */ );
  
             } else {
-                //showConnectionLabel( tr("Connected to <a href=\"%1\">%2</a> as <i>%3</i>.").arg(_account->url().toString(), safeUrl.toString(), user)
-                //                 /*, tr("Version: %1 (%2)").arg(versionStr).arg(version) */ );
-                 showConnectionLabel( tr("Connected to as <i>%1</i>.").arg(user));
+                showConnectionLabel( tr("Connected to <a href=\"%1\">%2</a> as <i>%3</i>.").arg(_account->url().toString(), safeUrl.toString(), user)
+                                /*, tr("Version: %1 (%2)").arg(versionStr).arg(version) */ );
+                 //showConnectionLabel( tr("Connected to as <i>%1</i>.").arg(user));
             }
         } else {
             showConnectionLabel( tr("No connection to %1 at <a href=\"%2\">%3</a>.")
