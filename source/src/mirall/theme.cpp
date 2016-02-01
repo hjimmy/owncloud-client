@@ -169,7 +169,7 @@ bool Theme::singleSyncFolder() const {
 
 QString Theme::defaultServerFolder() const
 {
-    return QLatin1String("/SYNC_DIR");
+    return QLatin1String("/SYNC_DIR"); // change default SYNC Dir added by jian.hou
 }
 
 QString Theme::overrideServerUrl() const
