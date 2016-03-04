@@ -42,3 +42,7 @@ StrCpy $UAC_INSTALLER_REQUIRE_ADMIN "安装程序需要管理员权限，请重试"
 StrCpy $INIT_INSTALLER_RUNNING "安装程序已经运行。"
 StrCpy $UAC_UNINSTALLER_REQUIRE_ADMIN "卸载程序需要管理员权限，请重试"
 StrCpy $INIT_UNINSTALLER_RUNNING "卸载程序已经运行。"
+StrCpy $Standard "标准"
+StrCpy $Full "全部"
+StrCpy $Minimal "最小化"
+

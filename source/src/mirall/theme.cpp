@@ -86,7 +86,7 @@ QString Theme::statusHeaderText( SyncResult::Status status ) const
 
 QString Theme::appNameGUI() const
 {
-    return QLatin1String(APPLICATION_NAME);
+    return tr("bjkw"); //added by jian.hou change bjkw to 科委云盘
 }
 
 QString Theme::appName() const
