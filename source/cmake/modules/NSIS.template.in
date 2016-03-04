@@ -8,6 +8,7 @@
 !define APPLICATION_DOMAIN "@APPLICATION_DOMAIN@"
 !define APPLICATION_LICENSE "@APPLICATION_LICENSE@"
 !define WIN_SETUP_BITMAP_PATH "@WIN_SETUP_BITMAP_PATH@"
+!define FULL "@FULL_NAME@"
 
 ;-----------------------------------------------------------------------------
 ; Some installer script options (comment-out options not required)

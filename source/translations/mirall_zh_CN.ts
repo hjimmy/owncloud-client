@@ -101,7 +101,7 @@
     <message>
         <location filename="../src/mirall/accountsettings.ui" line="55"/>
         <source>Add Folder...</source>
-        <translation>添加文件夹...</translation>
+        <translation>添加同步文件夹...</translation>
     </message>
     <message>
         <location filename="../src/mirall/accountsettings.ui" line="94"/>
@@ -689,12 +689,8 @@ Are you sure you want to perform this operation?</source>
     </message>
     <message>
         <location filename="../src/mirall/ignorelisteditor.cpp" line="35"/>
-        <source>Files or directories matching a pattern will not be synchronized.
-
-Checked items will also be deleted if they prevent a directory from being removed. This is useful for meta data.</source>
-	<translation>匹配到模式的文件或文件夹将不会被同步。
-
-如果选中的项目正在阻止文件夹的删除，它们也会被删除。这对于元数据很有用。</translation>
+        <source>Files or directories matching a pattern will not be synchronized.</source>
+	<translation>匹配到模式的文件或文件夹将不会被同步。</translation>
     </message>
     <message>
         <location filename="../src/mirall/ignorelisteditor.cpp" line="97"/>
@@ -1001,7 +997,7 @@ for additional privileges during the process.</source>
     <message>
         <location filename="../src/wizard/owncloudadvancedsetuppage.cpp" line="111"/>
         <source>%1 folder &apos;%2&apos; is synced to local folder &apos;%3&apos;</source>
-        <translation type="unfinished"/>
+	<translation type="unfinished"/>
     </message>
     <message>
         <location filename="../src/wizard/owncloudadvancedsetuppage.cpp" line="117"/>
@@ -1241,7 +1237,7 @@ It is not advisable to use it.</source>
     <message>
         <location filename="../src/wizard/owncloudwizardresultpage.cpp" line="80"/>
         <source>%1 folder &lt;i&gt;%1&lt;/i&gt; is synced to local folder &lt;i&gt;%2&lt;/i&gt;</source>
-        <translation type="unfinished"/>
+	<translation>本地文件夹同步到 %1服务器文件夹:&apos;%2&apos;</translation>
     </message>
 </context>
 <context>
@@ -2256,8 +2252,8 @@ It is not advisable to use it.</source>
     </message>
     <message>
         <location filename="../src/wizard/owncloudsetupnocredspage.ui" line="99"/>
-        <source>https://...</source>
-        <translation>https://...</translation>
+        <source>https://210.76.97.91/bjkw/</source>
+        <translation>https://210.76.97.91/bjkw/</translation>
     </message>
     <message>
         <location filename="../src/wizard/owncloudsetupnocredspage.ui" line="157"/>

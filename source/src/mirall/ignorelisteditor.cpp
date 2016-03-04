@@ -32,9 +32,10 @@ IgnoreListEditor::IgnoreListEditor(QWidget *parent) :
     setWindowFlags(windowFlags() & ~Qt::WindowContextHelpButtonHint);
     ui->setupUi(this);
 
-    ui->descriptionLabel->setText(tr("Files or directories matching a pattern will not be synchronized.\n\n"
+    /*ui->descriptionLabel->setText(tr("Files or directories matching a pattern will not be synchronized.\n\n"
                                      "Checked items will also be deleted if they prevent a directory from "
-                                     "being removed. This is useful for meta data."));
+                                     "being removed. This is useful for meta data."));*/
+    ui->descriptionLabel->setText(tr("Files or directories matching a pattern will not be synchronized."));//Added by jian.hou change descriptionLabel to ""
 
     MirallConfigFile cfgFile;
     readIgnoreFile(cfgFile.excludeFile(MirallConfigFile::SystemScope), true);

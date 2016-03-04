@@ -120,7 +120,8 @@
       <item>
        <widget class="QLabel" name="quotaInfoLabel">
         <property name="text">
-         <string>&lt;b&gt;Note:&lt;/b&gt; Some folders, including network mounted or shared folders, might have different limits.</string>
+         <!--string>&lt;b&gt;Note:&lt;/b&gt; Some folders, including network mounted or shared folders, might have different limits.</string-->
+	<string></string>
         </property>
         <property name="wordWrap">
          <bool>true</bool>
